@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>CV_Ruiqi Jiang</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"  type="text/css" href="assets/css/typo.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+
+    <script>
+        function loading() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('loading')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+
+            <style>
+
+                @media (min-width: 414px) {
+                    .switch {
+                        position: relative;
+                        display: inline-block !important;
+                        width: 60px;
+                        height: 34px;
+                    }
+
+                        .switch input {
+                            display: none;
+                        }
+
+                    .slider {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background-color: #ccc;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    .slider:before {
+                        position: absolute;
+                        content: "";
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        -webkit-transition: .4s;
+                        transition: .4s;
+                    }
+
+                    input:checked + .slider {
+                        background-color: #1abc9c;
+                    }
+
+                    input:focus + .slider {
+                        box-shadow: 0 0 1px #1abc9c;
+                    }
+
+                    .avatar {
+                        width: 330px;
+                    }
+
+                    input:checked + .slider:before {
+                        -webkit-transform: translateX(26px);
+                        -ms-transform: translateX(26px);
+                        transform: translateX(26px);
+                    }
+                }
+            </style>
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <!-- <div class="loading">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/card.jpg" style="width:200px;height:200px">
+                </section>
+
+                <h1 class="name"><strong>Ruiqi Jiang</B></strong></h1>
+                <h4 class="info"><strong>蒋锐祺</strong> </h4>
+
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>Basic Information
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label><B>Basic</B></label>
+                        <span>Male / 1997-09</span>
+                    </li>
+                    <li>
+                        <label><B>Graduate</B></label>
+                        <span>2023-06</span>
+                    </li>
+
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>Contact
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label><B>[1] Working</B></label>
+                        <a href="https://gitee.com/richjiang" target="_blank">jiang_ruiqi@cqu.edu.cn</a>
+                    </li>
+                    <li>
+                        <label><B>[2] Private</B></label>
+                        <a href="https://gitee.com/richjiang" target="_blank">823999009@qq.com</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>Education
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label><B>Master</B></label>
+                        <a href="https://www.cqu.edu.cn" target="_blank">Chongqing University - Control Science and Engineering</a>
+                    </li>
+                    <li>
+                        <label><B>Bachelor</B></label>
+                        <a href="https://www.heu.cn" target="_blank">Harbin Engineering University - Automation</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 个人技能 -->
+            <section class="skill info-unit">
+                <h2>
+                    <i class="fa fa-code" aria-hidden="true"></i>Skill
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <label>C (Embedded)</label>
+                        <progress value="85" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Python</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Embedded</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>C++</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>QT</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>Unity 3D</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>CV</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>ASM</label>
+                        <progress value="45" max="100"></progress>
+                    </li>
+                    <li>
+                        <label>FPGA</label>
+                        <progress value="45" max="100"></progress>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="me">
+
+                <img class="avatar" src="assets/images/1.jpg">
+                <img class="avatar" src="assets/images/2.jpg">
+                <img class="avatar" src="assets/images/4.jpg">
+            </section>
+        </section>
+
+        <section class="main">
+
+            <!-- 专业能力 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>Publications
+                </h2>
+                <hr />
+                <p>
+                    <B>1.</B> <B>Jiang R.</B>, Zeng S., Wu Z., Deep-chain echo state network with explainable temporal dependence for complex building energy prediction, IEEE transactions on industrial informatics, doi:10.1109/TII.2022.3194842
+                </p>
+                <p>
+                    <B>2.</B> <B>Jiang R.</B>, Wu Z., Ling R.. Machine learning model to predict electricity demand and thermal generation during the pandemic, 2021 China Automation Congress (CAC). IEEE, 2021: 4690-4695.
+                </p>
+                <p>
+                    <B>3.</B> Zeng S., <B>Jiang R.</B>, Wu Z., Multi-step wind power forecast based on multiple echo states networks, International Conference on Neural Computing for Advanced Applications (Accepted).
+                </p>
+                <p>
+                    <B>4.</B> Sun Y., Xu J., <B>Jiang R.</B>, et al. An Improved Echo State Network Model for Spatial-Temporal Energy Consumption Prediction in Public Buildings, International Conference on Neural Computing for Advanced Applications. Springer, Singapore, 2021: 83-95.
+                </p>
+                <p>
+                    <B>5.</B> Lin, J., Han, Y., Su, Y., Wang, Y., Zhang, Z., <B>Jiang, R</B>. (2021). Hydrodynamic performance of a Magnus anti- rolling device at zero and low ship speeds. Ocean Engineering, 229, 109008.
+                </p>
+
+                <p>
+                    <B>6.</B> (Patents) An intelligent power management system and workflow for unmanned semi-submarine, 2019
+                </p>
+
+                <p>
+                    <B>7.</B> (Patents) An experimental teaching platform based on a real quadrotor flying model, 2018
+                </p>
+
+                <p>
+                    <B>8.</B> Ma, Z., Xu W., Wang Z., <B>Jiang R.</B>., Liu F., Design of micro quadrotor experiment platform, Laboratory Science (Chinese Journal),2018
+                </p>
+            </section>
+
+            <!-- 工作经历 -->
+
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-bars" aria-hidden="true"></i>Awards
+                </h2>
+                <hr />
+                <p>
+                    <span><B>· </B>2022 Chongqing Innovation Advanced Individual Student</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2022 Chongqing University B-level Scholarship</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 Chongqing University Innovation Advanced Individual Student</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 Chongqing University A-level Scholarship</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 20<sup>th</sup> National College Students Robot Competition “Robomaster” - National Second Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 20<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in North Division</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 20<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in North Division Individual Competition</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 20<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in Harbin League</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2021 20<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in Harbin Division Individual Competition</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2020 19<sup>th</sup> National College Students Robot Competition (Online) “Robomaster” - National Second Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 18<sup>th</sup> National College Students Robot Competition “Robomaster” - National Third Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 18<sup>th</sup> National College Students Robot Competition “Robomaster” - National Second Prize in Individual Competition</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 18<sup>th</sup> National College Students Robot Competition “Robomaster” - Third Prize in North Division</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 18<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in North Division Individual Competition</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 "Internet +" - Heilongjiang Province Sliver Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 "Internet +" - Heilongjiang Province Bronze Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2019 The National College Students Electronic Design Competition (TI Cup) - Division First Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2018 National Marine Vehicle Design and Production Competition - National Grand Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2018 National Marine Vehicle Design and Production Competition - National Second Prize -1</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2018 National Marine Vehicle Design and Production Competition - National Second Prize -2</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2018 17<sup>th</sup> National College Students Robot Competition “Robomaster” - Third Prize in North Division</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2018 University Robot Innovation Competition of China - Finalist Award</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2017 16<sup>th</sup> National College Students Robot Competition “Robomaster” - National Third Prize</span>
+                </p>
+
+                <p>
+                    <span><B>· </B>2017 16<sup>th</sup> National College Students Robot Competition “Robomaster” - First Prize in North Division</span>
+                </p>
+
+                <p>
+                    (There are several college-level awards and two students' national projects not listed.)
+                </p>
+
+            </section>
+
+            <!-- 项目经验 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-users" aria-hidden="true"></i>Research Experience
+                </h2>
+                <hr />
+                <ul>
+                    <li>
+                        <h3>
+                            <span><a href="https://www.robomaster.com/zh-CN/resource/pages/activities/958" target="_blank">The Robot Team of Harbin Engineering University</a></span>
+                            <time>2016.12-2019.9</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] <B>Team Leader</B> and Leader of Control & Electronics Group<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Robots tasks and working flow design <br />
+                                    &emsp;[2] Programming all robots embedded control code<br />
+                                    &emsp;[3] Design Inertial Gyro Module and Super Caps Module <br />
+                                    &emsp;[4] Management
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span><a href="http://ius.cqu.edu.cn/info/1110/1381.htm" target="_blank">The Artificial Intelligence Institute of Chongqing University</a></span>
+                            <time>2020.9-Now</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] postgraduate student<br />
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Unmanned Underwater Robot Research and Development</span>
+                            <time>2019.12-2021.6</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] In Charge of Control & Electronics<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Programming computer control software <br />
+                                    &emsp;[2] Programming the embedded code of robots <br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Magnus Anti-rolling Device Development</span>
+                            <time>2019.9-2020.5</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] In Charge of Control & Electronics<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Programming the embedded code of robots <br />
+                                    &emsp;[2] Analysis the sensor data <br />
+                                    &emsp;[3] Help write paper <br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Hebei Hongan Company’s Smart House Device Development</span>
+                            <time>2020.5-2020.11</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] Technical Consultant<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Programming the embedded frames <br />
+                                    &emsp;[2] Help analysis the sensor data <br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Autonomous Warehouse Robot</span>
+                            <time>2017.7-2018.10</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] Porject Leader<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Programming the embedded code <br />
+                                    &emsp;[2] Collaboration on programming computer vision code <br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>Unmanned Water Quality Detection Hydrofoil</span>
+                            <time>2018.3-2018.7</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li>
+                                [Position] Project Vice Leader and In Charge of Control & Electronics<br />
+                            </li>
+                            <li>
+                                [Main Contribution]<br />
+                                <p>
+                                    &emsp;[1] Programming the embedded control code <br />
+                                    &emsp;[2] Collaboration on design mechanical structure <br />
+                                </p>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+
+        </section>
+
+        <section class="right">
+
+            <img class="avatar" src="assets/images/5.jpeg">
+
+            <img class="avatar" src="assets/images/12.jpg">
+
+            <img class="avatar" src="assets/images/6.jpg">
+
+            <img class="avatar" src="assets/images/7.jpg">
+
+            <img class="avatar" src="assets/images/8.jpeg">
+
+            <img class="avatar" src="assets/images/9.jpeg">
+
+            <img class="avatar" src="assets/images/10.jpeg">
+
+            <img class="avatar" src="assets/images/11.jpeg">
+
+        </section>
+
+    </article>
+
+
+    <footer class="footer">
+        <p> <b>极限尤可突破，至臻亦不可止。</b> </p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <!--
+        <aside>
+            <ul>
+                <li>
+                    <a href="https://github.com/hackhu2019" target="_blank">Github</a>
+                </li>
+                <li>
+                    <a href="https://blog.csdn.net/qq_38288847" target="_blank">Blog</a>
+                </li>
+            </ul>
+        </aside>
+    -->
+
+    <script src="./assets/js/index.js" type="text/javascript"></script>
+
+</body>
+
+    </html>
