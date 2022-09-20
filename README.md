@@ -4,5 +4,4 @@
 
 [在线地址/Online Resume](https://richj233.github.io/)
 
-### Cloned from https://github.com/hackhu2019/resume
-### [Reference ](https://zhuanlan.zhihu.com/p/83570390)
+### Source from https://github.com/hackhu2019/resume  [Reference ](https://zhuanlan.zhihu.com/p/83570390)
