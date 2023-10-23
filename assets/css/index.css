@@ -29,13 +29,15 @@ body {
  * 主体部分
  * ------------------------------------------------- */
 .container .side {
-  position: absolute;
-  width: 23rem;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 5px 20px #bbb;
-  box-sizing: border-box;
-  padding: 1rem; }
+    position: absolute;
+    width: 23rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px #bbb;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-left: 4rem;
+}
   .container .side .me {
     text-align: center;
     margin-bottom: 2rem; }
@@ -97,13 +99,14 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 60%; }
+
 .container .main {
   position: relative;
-  margin-left: 25rem;
+  margin-left: 29rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 20px #bbb;
-  width: 855px;
+  width: 900px;
   box-sizing: border-box;
   padding: 1rem; }
   .container .main .info-unit ul {
