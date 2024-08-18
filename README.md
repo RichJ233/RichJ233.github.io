@@ -3,7 +3,7 @@
 ## Resume of Ruiqi Jiang 
 
 [在线地址/Online Resume](https://richj233.github.io/)
-The latest version update is on 2024.5.13.
+The latest version update is on 2024.8.18.
 
 ### Source
 
