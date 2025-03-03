@@ -1,14 +1,14 @@
 # RichJ233.github.io
 
-## Resume of Ruiqi Jiang 
+## Curriculum Vitae of Ruiqi Jiang 
 
-[在线地址/Online Resume](https://richj233.github.io/)
-The latest version update is on 2024.8.18.
+[在线地址/Online Curriculum Vitae](https://richj233.github.io/)
+The latest version update is on 2025.03.03.
 
 ### Source
 
-From 
+Refered from:
 
 - https://rajaprerak.github.io/
 
-- [Reference](https://zhuanlan.zhihu.com/p/83570390)
+- https://zhuanlan.zhihu.com/p/83570390
